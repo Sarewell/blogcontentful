@@ -1,0 +1,17 @@
+projet avec Nextjs
+
+1 Create projet npx create-next-app@latest
+
+2 install contentfull dependance npm i contentful
+
+3 creer mon content type sur content full
+
+4 creer mon contenu dans contentful
+
+5 conexion avec mes cle api contentful => setting => Api keys => add apikeys
+
+pour le rich te
+
+npm i @contentful/rich-text-react-renderer
+
+font popins

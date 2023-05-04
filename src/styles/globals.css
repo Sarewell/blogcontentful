@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --clr-txt-w:#fff;
+    --clr-txt-b:#000000;
+    --clr-br-rose:rgba(248, 76, 250, 0.9);
+    --clr-jaune:rgb(255, 212, 102,0.8);
+    --clr-footer:#222831;
+    --clr-bg-grad:#FABF6B;
+    --clt-txt-gray:#747575;
+}
+.hero{
+    height: 900px;
+    background-size: cover;
+    background-position: top center;
+    background-image: linear-gradient(to top right, var(--clr-br-rose),var(--clr-jaune) ), url("/image/bg_1.jpg");
+    background-repeat: no-repeat;
+}
